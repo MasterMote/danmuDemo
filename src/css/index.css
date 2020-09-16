@@ -6,7 +6,6 @@ body {
 input,
 button {
     outline: none;
-    border: none;
     vertical-align: middle;
     box-sizing: border-box;
 }
@@ -43,6 +42,14 @@ button {
     height: 100%;
     margin-right: 15px;
     border-radius: 5px;
+}
+
+.container input {
+    border: 1px solid grey;
+}
+
+.container button {
+    border: none;
 }
 
 .container .danmu-input {
